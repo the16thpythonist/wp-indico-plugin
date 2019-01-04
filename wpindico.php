@@ -13,5 +13,7 @@ namespace WpIndico;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+use the16thpythonist\Wordpress\Indico\EventPost;
 
+EventPost::register('event');
 
