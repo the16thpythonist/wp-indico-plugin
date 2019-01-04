@@ -1,0 +1,19 @@
+{
+  "name": "wp-indico-plugin",
+  "version": "0.0.0.0",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type":  "vcs",
+      "url": "https://github.com/the16thpythonist/wp-indico.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/indico-api.git"
+    }
+  ],
+  "require": {
+    "the16thpythonist/indico-api": "dev-master",
+    "the16thpythonist/wp-indico": "dev-master"
+  }
+}
